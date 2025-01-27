@@ -1,3 +1,4 @@
+const { model } = require('mongoose');
 const Users = require('../models/userModel.js')
 const bcrypt = require("bcrypt");
 
@@ -47,11 +48,18 @@ async function get_rooms_by_users(req, res) {
 
     try {
         Users.findOne({_id: id})
-        .populate("joined_rooms")
+        .populate({
+            path: "joined_rooms",
+            populate: {
+                path: "files",
+                model: "file"
+            }
+        })
         .select("joined_rooms")
         .then((result) => {
             return res.status(200).json(result.joined_rooms)
         }).catch((e) => {
+            console.log(e);
             return res.status(400).json({
                 error: "Invalid user ID"
             })
