@@ -1,4 +1,4 @@
-### zTransfer
+# zTransfer
 
 
 zTransfer - Java Application with Rest api + CRUDzTransfer - Java Application with Rest api + CRUD
@@ -8,4 +8,4 @@ The interface app is being built using plain Java + Swing, as well for UI&UX, Fl
 
 The API is made using NodeJS together with ExpressJS + Multer for managing files upload, structure provided by the MVC concept makes it easier to expand. Postman was an important software throughout the development of the API, being able to test certain functionalities very easily and fast made a big difference in time that later was used to improve the whole application.
 
-# API made by [Poienariu Vlad](https://www.linkedin.com/in/poienariu-vlad/)
+### API made by [Poienariu Vlad](https://www.linkedin.com/in/poienariu-vlad/)
