@@ -1,8 +1,6 @@
 # zTransfer
-
-
 zTransfer - Java Application with Rest api + CRUDzTransfer - Java Application with Rest api + CRUD
-Jan 2025 - Jan 2025Jan 2025 - Jan 2025
+
 With just few clicks you can upload any file type to a room of you choice, being able to choose the name and the password to give access to only known people to the shared files, then invite your friends to the room and share files with just few clicks between you and your friends.
 The interface app is being built using plain Java + Swing, as well for UI&UX, Flatlaf was the theme provider which was used in this application. The structure follows a classic recommended Java project structure.
 
